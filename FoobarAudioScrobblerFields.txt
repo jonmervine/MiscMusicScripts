@@ -1,0 +1,15 @@
+Title
+[$if($or($strstr($trim(%title%),'[Rainwave'),$strstr($trim(%title%),'[OC ReMix Radio]')),$trim($left(%title%,$sub($strstr(%title%,'['),1))),%title%)]
+
+
+
+Only Handle Rainwave, no longer need anfo stuff as the Album isn't appended to the end of the Title
+
+
+
+
+Old Title
+[$if($or($stricmp($trim('http://momori.animenfo.com:8000/'),$trim(%path%)),$stricmp($trim('http://itori.animenfo.com:443/'),$trim(%path%))),$trim($left(%title%,$sub($strrchr(%title%,'('),1))),$if($or($strstr($trim(%title%),'[Rainwave'),$strstr($trim(%title%),'[OC ReMix Radio]')),$trim($left(%title%,$sub($strstr(%title%,'['),1))),%title%))]
+
+Old Album
+[$if($or($stricmp($trim('http://momori.animenfo.com:8000/'),$trim(%path%)),$stricmp($trim('http://itori.animenfo.com:443/'),$trim(%path%))),$substr(%title%,$add($strrchr(%title%,'('),1),$sub($strrchr(%title%,')'),1)),%album%)]

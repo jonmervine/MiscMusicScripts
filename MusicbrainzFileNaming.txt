@@ -1,0 +1,108 @@
+$noop(Checking for more than 2 commas in albumartist, if so, set albumartist and albumartistsort to Various Artists
+$set(_customalbumartist,
+	$if(
+		$in(%albumartist%,\,),
+		$set(_albumartistcomma,
+			$rreplace(%albumartist%,^[^\,]+\,,AAA)
+		)$if(
+			$in($get(_albumartistcomma),\,),
+			Various Artists,
+			%albumartist%
+		)
+		,
+		%albumartist%
+	)
+)
+//Am commenting out this whole thing because the artist "You, Me, And Everyone We Know" got put into Various Artists. )
+$set(_customalbumartist, derp)
+
+$noop(Setting our custom file name where artist is decided by)
+$noop(artist, if albumartist and artist are same, cause it doesn't matter)
+$noop(or albumartist if artist contains albumartist so Bloc Party feat Lupe would just be Bloc Party)
+$noop(or artist if albumartist contains artist, can't remember why)
+$noop(or if compilation or various artist then artist if not empty and albumartist as backup. If not compilation then albumartist or artist first non empty)
+$set(
+	_customfilename,
+	$num(%tracknumber%,2) %title% - $if(
+											$and(%artist%,
+												    $eq(%artist%,%albumartist%)),
+										%artist%,
+										$if(
+											$and(
+												%albumartist%,
+												$in(%artist%,%albumartist%)
+											),
+											%albumartist%,
+											$if(
+												$and(
+													%artist%,
+													$in(%albumartist%,%artist%)
+												),
+												%artist%,
+												$if2(%artist%,%albumartist%)
+											)
+										)
+									)
+)
+	
+$set(_customfilepath,
+	$if(
+		%originaldate%,
+		[$left(%originaldate%,4)] ,
+		$if(%date%,
+			[$left(%date%,4)] 
+		)
+	)
+	$if2(%album%,[non-album tracks])
+	/
+	$if(
+		$gt(%totaldiscs%,1),
+		%discnumber%-,
+	)
+	$get(_customfilename)
+)
+	
+$if(
+	$or(
+		$eq($get(_customalbumartist),Various Artists),
+		$eq(%musicbrainz_albumartistid%,89ad4ac3-39f7-470e-963a-56509c546377)
+	),
+	Various Artists
+		/
+		$upper($firstalphachar(%album%,#))
+		/
+		$get(_customfilepath)
+	,
+	$upper(
+		$firstalphachar(
+			$if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%),
+			$if(
+				$rsearch(
+					$if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%),
+					^\\d+
+				),
+				#,
+				Other
+			)
+		)
+	)
+	/
+	$if(
+		$and(%artistsort%,
+			$eq(%artistsort%,%albumartistsort%)),
+		%artistsort%,
+		$if(
+			$and(%albumartistsort%,
+				$in(%artistsort%,%albumartistsort%)),
+			%albumartistsort%,
+			$if(
+				$and(%artistsort%,
+					$in(%albumartistsort%,%artistsort%)),
+				%artistsort%,
+				$if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%)
+			)
+		)
+	)
+	/
+	$get(_customfilepath)
+)
