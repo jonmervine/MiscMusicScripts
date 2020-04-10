@@ -1,108 +1,77 @@
-$noop(Checking for more than 2 commas in albumartist, if so, set albumartist and albumartistsort to Various Artists
-$set(_customalbumartist,
-	$if(
-		$in(%albumartist%,\,),
-		$set(_albumartistcomma,
-			$rreplace(%albumartist%,^[^\,]+\,,AAA)
-		)$if(
-			$in($get(_albumartistcomma),\,),
-			Various Artists,
-			%albumartist%
-		)
-		,
-		%albumartist%
-	)
+$noop(
+	Preferable Format Example: 
+	Album Artist in Path, Artist in Filename
+		/B/Bloc Party/[2005] Silent Alarm/01 Like Eating Glass - Bloc Party.mp3
+		/#/3OH!3/[2010] Streets of Gold/03 My First Kiss - 3OH!3 feat. Kesha.mp3
+		/OTHER/+44/...
+		/Various Artists/H/[2017] HARDCORE SYNDROME 11/02 Can You Feel It - REDALiCE.flac 
+		/Butler, John, Trio/[2005] Max Sessions/06 Ocean - John Butler
 )
-//Am commenting out this whole thing because the artist "You, Me, And Everyone We Know" got put into Various Artists. )
-$set(_customalbumartist, derp)
 
-$noop(Setting our custom file name where artist is decided by)
-$noop(artist, if albumartist and artist are same, cause it doesn't matter)
-$noop(or albumartist if artist contains albumartist so Bloc Party feat Lupe would just be Bloc Party)
-$noop(or artist if albumartist contains artist, can't remember why)
-$noop(or if compilation or various artist then artist if not empty and albumartist as backup. If not compilation then albumartist or artist first non empty)
-$set(
-	_customfilename,
-	$num(%tracknumber%,2) %title% - $if(
-											$and(%artist%,
-												    $eq(%artist%,%albumartist%)),
-										%artist%,
-										$if(
-											$and(
-												%albumartist%,
-												$in(%artist%,%albumartist%)
-											),
-											%albumartist%,
-											$if(
-												$and(
-													%artist%,
-													$in(%albumartist%,%artist%)
-												),
-												%artist%,
-												$if2(%artist%,%albumartist%)
-											)
-										)
-									)
+$noop(
+	Create File Name: First 2 digit track number, followed by Title, then first non empty Artist or AlbumArtist.
 )
-	
-$set(_customfilepath,
-	$if(
-		%originaldate%,
+$set(_customFileName,
+	$num(%tracknumber%,2) %title% - $if2(%artist%,%albumartist%)
+)
+
+$noop(
+	Create Album Directory: 
+		Get left 4 digits for the year of Original Date or Date, Wrapped in square brackets
+		Get Album or if thats empty set as [non-album tracks]
+		End Directory Name
+		If there are more than one disc, Then grab the disc number with a hyphen
+		Append the File Name from Above. In the case of multiple discs it should look like 2-03 or 1-01, etc...
+)
+$set(_customAlbumPath,
+	$if(%originaldate%,
 		[$left(%originaldate%,4)] ,
-		$if(%date%,
-			[$left(%date%,4)] 
-		)
+		$if(%date%,[$left(%date%,4)] )
 	)
 	$if2(%album%,[non-album tracks])
 	/
-	$if(
-		$gt(%totaldiscs%,1),
-		%discnumber%-,
-	)
-	$get(_customfilename)
+	$if($gt(%totaldiscs%,1),%discnumber%-)
+	$get(_customFileName)
 )
-	
+
+$noop(
+	The musicbrainz id there is the equivalent of Various Artists.
+	If Various Artists, get first Alpha Character of album otherwise #
+	Append Album Path from above
+)
 $if(
-	$or(
-		$eq($get(_customalbumartist),Various Artists),
-		$eq(%musicbrainz_albumartistid%,89ad4ac3-39f7-470e-963a-56509c546377)
-	),
+	$or($eq(%albumartist%,Various Artists),
+		$eq(%musicbrainz_albumartistid%,89ad4ac3-39f7-470e-963a-56509c546377)),
 	Various Artists
-		/
-		$upper($firstalphachar(%album%,#))
-		/
-		$get(_customfilepath)
-	,
-	$upper(
-		$firstalphachar(
-			$if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%),
+	/
+	$upper($firstalphachar(%album%,#))
+	/
+	$get(_customAlbumPath),
+	
+$noop(
+	If not Various Artist: This is the Else block essentially
+	Get the first letter from the first non empty albumartistsort, albumartist, artistsort...
+	If the first char is not alpha Then search for whether the first is a digit in which case use #
+	If the first character is not alpha, and rsearch doesn't find it to be a digit, then use Other. Example +44
+		Important note, the second parameter of firstalphachar, Takes the entire presented value, which is why we have OTHER as a folder
+	The Regex ^\\d+ says from the beginning ^, check for digits \\d, Matching 1 or more characters +.
+)
+	$upper($firstalphachar(
+			$if2(%albumartistsort%,%albumartist%,%artistsort%,%artist%),
 			$if(
-				$rsearch(
-					$if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%),
-					^\\d+
-				),
+				$rsearch($if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%),^\\d+),
 				#,
 				Other
 			)
 		)
 	)
 	/
-	$if(
-		$and(%artistsort%,
-			$eq(%artistsort%,%albumartistsort%)),
-		%artistsort%,
-		$if(
-			$and(%albumartistsort%,
-				$in(%artistsort%,%albumartistsort%)),
-			%albumartistsort%,
-			$if(
-				$and(%artistsort%,
-					$in(%albumartistsort%,%artistsort%)),
-				%artistsort%,
-				$if2(%albumartistsort%,%artistsort%,%albumartist%,%artist%)
-			)
-		)
-	)
+$noop(
+	Now we have our Letter directory. Next we need Album Artist name. This has caused me problems in the past and I think I've over complicated it.
+	For now I'm going to try just grab first non empty albumartistsort, albumartist, artist sort, artist
+	Then append the album path
+)
+	$if2(%albumartistsort%,%albumartist%,%artistsort%,%artist%)
 	/
-	$get(_customfilepath)
+	$get(_customAlbumPath)
 )
