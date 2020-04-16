@@ -1,3 +1,5 @@
-%ANIME SERIES% PRESENT
+%Anime Series% PRESENT AND * HAS 5.0 FinalCleanup
+Sort Pattern: File Path
 
-4.0 TooMuchMusic
+5.0 FinalCleanup
+Sort Pattern: File Path
