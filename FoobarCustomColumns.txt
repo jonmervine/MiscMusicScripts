@@ -6,3 +6,6 @@ Anime
 
 Rating
 $pad($if($greater(%my_rating%,5),$repeat(★,$sub(%my_rating%,5))),$min(%my_rating%,5),✩)
+
+Purchased
+%PURCHASED%
