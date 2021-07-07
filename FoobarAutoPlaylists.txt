@@ -1,5 +1,16 @@
+//Only anime specific music thats been tagged
 %Anime Series% PRESENT AND * HAS 5.0 FinalCleanup
 Sort Pattern: File Path
 
+//Everything that has been properly tagged
 5.0 FinalCleanup
+Sort Pattern: File Path
+
+// Everything I've bought and from what the source was
+%PURCHASED% PRESENT
+Sort Pattern: File Path
+
+//Everything that has been properly tagged without albums of Super Eurobeat (cause there is way too much lol)
+//I was trying to get the * HAS to be something like %FILE PATH% but I couldn't seem to get that to work
+* HAS "5.0 FinalCleanup" AND NOT ALBUM HAS "Super Eurobeat, Volume"
 Sort Pattern: File Path
