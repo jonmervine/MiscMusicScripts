@@ -1,2 +1,2 @@
 Preserve Tags
-ANIME SERIES, Anime Series, ENGLISH TITLE, English Title, anime series, english title, my_rating, performer:vocals
+ANIME SERIES, Anime Series, ENGLISH TITLE, English Title, anime series, english title, my_rating, performer:vocals, purchased
