@@ -556,5 +556,71 @@
     "track": "Return",
     "album": null,
     "albumArtist": null
+  },
+  "spotify:track:3BqIr8oKemLokwCLwcsoPR": {
+    "artist": "森羅万象, COOL&CREATE",
+    "track": "酒鬼☆RaiRai!!!",
+    "album": "愛を取り戻せ!!東方",
+    "albumArtist": null
+  },
+  "spotify:track:51Cl0dNqhJDpsp6E8IbpOo": {
+    "artist": "COOL&CREATE, BEAT MARIO, まろん",
+    "track": "マツヨイナイトバグ",
+    "album": "東方オトハナビ - COOL&CREATE",
+    "albumArtist": null
+  },
+  "CSE5aVA444U": {
+    "artist": "Rare Americans",
+    "track": "Brittle Bones Nicky 2",
+    "album": "Rare Americans 2",
+    "albumArtist": "Rare Americans"
+  },
+  "spotify:track:59jdebE476q6gCMifMzSFi": {
+    "artist": "ZYTOKINE feat. YURiCa/花たん",
+    "track": "終末帰航のシャーデンフロイデ",
+    "album": "何度でも君/僕を壊/愛したい",
+    "albumArtist": "ZYTOKINE"
+  },
+  "spotify:track:3NqDcxvolroaCbLlv3IX9x": {
+    "artist": "t+pazolite(C.H.S), BEAT MARIO",
+    "track": "ナイト・オブ・ナイツ (tpz Overheat Remix)",
+    "album": "オールナイト・オブ・ナイツ",
+    "albumArtist": null
+  },
+  "spotify:track:6GY9PFSq2Ee2SNdGA9anZC": {
+    "artist": "ZYTOKINE feat. aki",
+    "track": "Ten Desires",
+    "album": "POP ICON",
+    "albumArtist": "ZYTOKINE"
+  },
+  "spotify:track:5uZDJkMxt4yX0tBFYpjY0o": {
+    "artist": "ZYTOKINE feat. nachi",
+    "track": "NEWBORN CRYING",
+    "album": "JUBILEE -THE BEST of ZYTOKINE/CYTOKINE4-",
+    "albumArtist": "ZYTOKINE"
+  },
+  "spotify:track:5D14lN9XvWbb4vjeYRrweG": {
+    "artist": "SOUND HOLIC feat. YURiCa/花たん",
+    "track": "Necrophantasia",
+    "album": "憑 -KAKARI-",
+    "albumArtist": "SOUND HOLIC"
+  },
+  "spotify:track:4Mm2JCmqkupkBRvMuwlZK7": {
+    "artist": "魂音泉, ランコ, 雨天決行",
+    "track": "愛き夜道 (feat. ランコ, 雨天決行)",
+    "album": "Chill★Now",
+    "albumArtist": null
+  },
+  "spotify:track:6SjkWZtQyTnfA2rw92l0Sq": {
+    "artist": "ZYTOKINE feat. cold kiss",
+    "track": "Dancing Dollz - REDALiCE Remix",
+    "album": "50/50",
+    "albumArtist": "ZYTOKINE"
+  },
+  "spotify:track:12r6TCHf6kVX7gPDV1M3jb": {
+    "artist": "ZYTOKINE feat. itori",
+    "track": "uni_Verse",
+    "album": "Liquid Total Reflection -THE BEST of ZYTOKINE/CYTOKINE2-",
+    "albumArtist": "ZYTOKINE"
   }
 }
