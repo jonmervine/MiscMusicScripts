@@ -530,8 +530,8 @@
   "ZnP0cKNPE04": {
     "artist": "LazuLight",
     "track": "Diamond City Lights",
-    "album": null,
-    "albumArtist": null
+    "album": "Diamond City Lights",
+    "albumArtist": "LazuLight"
   },
   "a7EMmJJRPhY": {
     "artist": "Darwin & Dy5on",
@@ -554,6 +554,30 @@
   "84Z_rtMdTIY": {
     "artist": "Henrik Jonsson",
     "track": "Return",
+    "album": null,
+    "albumArtist": null
+  },
+  "D-V0EHF30rk": {
+    "artist": "Obsydia",
+    "track": "Black Out",
+    "album": "Black Out",
+    "albumArtist": "Obsydia"
+  },
+  "MO9epU3GCeY": {
+    "artist": "Ludacris",
+    "track": "Ho",
+    "album": null,
+    "albumArtist": null
+  },
+  "JtFpa3LWA_U": {
+    "artist": "Ethyria",
+    "track": "God sees all",
+    "album": null,
+    "albumArtist": null
+  },
+  "BD6-Jjovz-o": {
+    "artist": "Wish of this Songbird",
+    "track": "Enna Alouette",
     "album": null,
     "albumArtist": null
   },
