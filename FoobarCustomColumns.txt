@@ -9,3 +9,6 @@ $pad($if($greater(%my_rating%,5),$repeat(★,$sub(%my_rating%,5))),$min(%my_rati
 
 Purchased
 %PURCHASED%
+
+Album Artist
+%album artist%
