@@ -2,14 +2,14 @@
   "NkYYYew8CUI": {
     "artist": "平沢進",
     "track": "BERSERK-forces-",
-    "album": null,
-    "albumArtist": null
+    "album": "BERSERK-Forces-",
+    "albumArtist": "平沢進"
   },
   "c10658163a4b5b5a0ee8c8b604aaa856": {
     "artist": "平沢進",
     "track": "上空初期値",
-    "album": null,
-    "albumArtist": null
+    "album": "点呼する惑星",
+    "albumArtist": "平沢進"
   },
   "549a3400cf75254759038103f3613bf3": {
     "artist": "Tommy heavenly6",
@@ -26,8 +26,8 @@
   "e50ce975bc080e71f3b2f2e7dd6c04b5": {
     "artist": "平沢進",
     "track": "聖馬蹄形惑星の大詐欺師",
-    "album": null,
-    "albumArtist": null
+    "album": "点呼する惑星",
+    "albumArtist": "平沢進"
   },
   "051fcb431f78a341899cbac0ce5e4fb4": {
     "artist": "平沢進",
@@ -36,16 +36,16 @@
     "albumArtist": "平沢進"
   },
   "6f871f4cb2b35e9c3eb77dd2a4f0caee": {
-    "artist": "ShakeSphere, himawari",
+    "artist": "ShakeSphere feat. himawari",
     "track": "OVER",
     "album": null,
     "albumArtist": null
   },
   "d12d62a50868a5fcfd3a7bb9b1fe695e": {
-    "artist": "SOUND HOLIC, CALEN",
+    "artist": "SOUND HOLIC feat. CALEN",
     "track": "SALAMANDRA",
-    "album": null,
-    "albumArtist": null
+    "album": "令和 -REIWA-",
+    "albumArtist": "SOUND HOLIC"
   },
   "de875e9f93480c05d395290253e9aebf": {
     "artist": "中島美嘉",
@@ -54,16 +54,16 @@
     "albumArtist": null
   },
   "7fdfff471c62ab390e1c96440bc96d0d": {
-    "artist": "ZYTOKINE, Nana Takahashi",
+    "artist": "ZYTOKINE feat. cold kiss",
     "track": "BEAUTIFUL LIFE",
-    "album": null,
-    "albumArtist": null
+    "album": "Birth In Dawn",
+    "albumArtist": "ZYTOKINE"
   },
   "a89e5fb99db18af31abbf092e731a731": {
-    "artist": "Complication",
-    "track": "ROOKiEZ is PUNK'D",
-    "album": null,
-    "albumArtist": null
+    "artist": "ROOKiEZ is PUNK'D",
+    "track": "Complication",
+    "album": "IN MY WORLD",
+    "albumArtist": "ROOKiEZ is PUNK'D"
   },
   "b54220dc7ceccd0a52410db0eb5382e0": {
     "artist": "Kanan Matsuura (CV: Suwa Nanaka)",
@@ -81,7 +81,7 @@
     "artist": "小鳥遊キアラ",
     "track": "Heart Challenger",
     "album": "Heart Challenger",
-    "albumArtist": null
+    "albumArtist": "小鳥遊キアラ"
   },
   "b2ccce09a6eba1c8f96033353c50e0e1": {
     "artist": "lapix, CHIKA",
@@ -123,7 +123,7 @@
     "artist": "小鳥遊キアラ",
     "track": "HINOTORI",
     "album": "HINOTORI",
-    "albumArtist": null
+    "albumArtist": "小鳥遊キアラ"
   },
   "29fc0c92078f5d9295f5e847b621d32b": {
     "artist": "KOTONOHOUSE, ぷにぷに電機",
@@ -719,29 +719,71 @@
     "album": "オールナイト・オブ・ナイツ",
     "albumArtist": null
   },
+    "AgPITdW3lRA": {
+    "artist": "The Osborne Brothers",
+    "track": "Rocky Top",
+    "album": "Appalachian Stomp: Bluegrass Classics",
+    "albumArtist": "The Osborne Brothers"
+  },
+  "_n9prNixjbg": {
+    "artist": "The Osborne Brothers",
+    "track": "Rocky Top",
+    "album": "Appalachian Stomp: Bluegrass Classics",
+    "albumArtist": "The Osborne Brothers"
+  },
+  "-NWngyxdaCY": {
+    "artist": "Rare Americans",
+    "track": "Baggage",
+    "album": "Jamesy Boy & the Screw Loose Zoo",
+    "albumArtist": "Rare Americans"
+  },
+  "uCyp5IKjrxU": {
+    "artist": "Rare Americans",
+    "track": "Hey Sunshine",
+    "album": "Jamesy Boy & the Screw Loose Zoo",
+    "albumArtist": "Rare Americans"
+  },
+  "1zeL2T_XU_U": {
+    "artist": "Rare Americans",
+    "track": "Pandora's Box",
+    "album": "Jamesy Boy & the Screw Loose Zoo",
+    "albumArtist": "Rare Americans"
+  },
+  "0lBNlD29hnw": {
+    "artist": "Rare Americans feat. D. Smoke",
+    "track": "Rhythm Kitchen",
+    "album": "Jamesy Boy & the Screw Loose Zoo",
+    "albumArtist": "Rare Americans"
+  },
+  "HDxADcLtFh8": {
+    "artist": "Rare Americans",
+    "track": "Ryan & Dave",
+    "album": "Rare Americans 2",
+    "albumArtist": "Rare Americans"
+  },
   "spotify:track:6qOxBnjpN47aZgN1uaaeQ5": {
     "artist": "Rare Americans feat. D Smoke",
     "track": "Rhythm Kitchen",
     "album": "Jamesy Boy & The Screw Loose Zoo",
-    "albumArtist": null
+    "albumArtist": "Rare Americans"
   },
   "spotify:track:5or3DfWwQPvoFSEKhifZaq": {
     "artist": "Syn Cole feat. Kirstin",
     "track": "Got the Feeling",
     "album": "Got the Feeling",
-    "albumArtist": null
+    "albumArtist": "Syn Cole"
   },
   "spotify:track:4R4gOp9ybG85RqbrY7JELc": {
     "artist": "Syn Cole feat. MIYA MIYA",
     "track": "Feels Like Love",
     "album": "Feels Like Love",
-    "albumArtist": null
+    "albumArtist": "Syn Cole"
   },
   "spotify:track:7pDdE5FLqcNCvjxzRzm80r": {
     "artist": "Syn Cole feat. Kaspara",
     "track": "Breathe",
     "album": "Breathe",
-    "albumArtist": null
+    "albumArtist": "Syn Cole"
   },
   "spotify:track:2n1ZcFNb1yGFISTKxYQU3z": {
     "artist": "Graf Theory",
@@ -753,37 +795,37 @@
     "artist": "Graf Theory",
     "track": "Strange Incidents",
     "album": "Strange Incidents",
-    "albumArtist": null
+    "albumArtist": "Graf Theory"
   },
   "spotify:track:7foDAEalBpfCYLEmAKOR39": {
     "artist": "Graf Theory",
     "track": "Racing Forward",
     "album": "Alternate Futures",
-    "albumArtist": null
+    "albumArtist": "Graf Theory"
   },
   "spotify:track:0gXGryVBRd0131HJqKmXJg": {
     "artist": "Graf Theory",
     "track": "Entangled Paths",
     "album": "Alternate Futures",
-    "albumArtist": null
+    "albumArtist": "Graf Theory"
   },
   "spotify:track:0sQkyFLqvbINm23QqTyUy6": {
     "artist": "Graf Theory",
     "track": "Everything in Flux",
     "album": "Alternate Futures",
-    "albumArtist": null
+    "albumArtist": "Graf Theory"
   },
   "spotify:track:1n0roMNZNxclnLraBmA7tl": {
     "artist": "Yung Bae feat. AWOLNATION",
     "track": "Disco Body Parts",
     "album": "Disco Body Parts",
-    "albumArtist": null
+    "albumArtist": "Yung Bae"
   },
   "spotify:track:5x7NCOzaBw1fBFZx4KWc3t": {
     "artist": "HoneyComeBear",
     "track": "ナツゾラ",
     "album": "ナツゾラ",
-    "albumArtist": null
+    "albumArtist": "HoneyComeBear"
   },
   "spotify:track:3v3okoFA4ZBpii7Fhdql3s": {
     "artist": "Neko Hacker, UGOKUCHAN",
