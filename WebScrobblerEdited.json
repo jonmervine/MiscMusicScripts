@@ -655,7 +655,7 @@
   },
   "spotify:track:1uJrLfkjI78DMXjfHwjIpX": {
     "artist": "魂音泉 feat. ytr",
-    "track": "アマノジャクリバース",
+    "track": "アマノジャクリバース",
     "album": "THE SELECTED WORKS OF TAMAONSEN 3",
     "albumArtist": null
   },
@@ -674,7 +674,7 @@
   "spotify:track:3J9e6fdtDY4O3H7PwWPjHm": {
     "artist": "BEAT MARIO feat. Amane",
     "track": "シアワセうさぎ",
-    "album": "とうほう☆あまねりお+ぷらす",
+    "album": "とうほう☆あまねりお+ぷらす",
     "albumArtist": null
   },
   "spotify:track:6BD1bO82Yi2dRztR6drIJq": {
@@ -835,7 +835,7 @@
   },
   "spotify:track:5hmL76MRXyKFQjRcDwrPrI": {
     "artist": "Neko Hacker, 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花)",
-    "track": "進め!むじなカンパニー feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花) - Album ver.",
+    "track": "進め!むじなカンパニー feat. 六科なじむ (CV: 日高里菜) & 割戸真友 (CV: 金元寿子) & 軽井沢ユキ (CV: 上坂すみれ) & 出稼ぎガルシア (CV: 金子彩花) - Album ver.",
     "album": "Neko Hacker Ⅱ: Stray",
     "albumArtist": null
   },
@@ -963,6 +963,432 @@
     "artist": "Hard Lights, Mangoo, Felix Schorn, Jessica Chertock",
     "track": "Frozen River (feat. Jessica Chertock)",
     "album": "Frozen River (feat. Jessica Chertock)",
+    "albumArtist": null
+  },
+  "spotify:track:3sQr2GZibMWMUAaA8sTdpu": {
+    "artist": "Amateras Records, 築山さえ",
+    "track": "Secret Melody feat. 築山さえ",
+    "album": "Radical Destruction",
+    "albumArtist": null
+  },
+  "spotify:track:7iVtZs4W7q7D0zarbhjXyp": {
+    "artist": "少女フラクタル, 柚木梨沙",
+    "track": "悠久の月に照らされて (Vocal version)",
+    "album": "第3幕 協奏曲「華鳥風月」 SIDE A",
+    "albumArtist": null
+  },
+  "spotify:track:2iuaTuik277CUUPuDzxoJA": {
+    "artist": "幽閉サテライト, senya",
+    "track": "千花繚乱",
+    "album": "千華繚乱",
+    "albumArtist": null
+  },
+  "spotify:track:6PO1nj4pQJrssT6172XaOW": {
+    "artist": "Amateras Records, えみぃ",
+    "track": "Tear Rain feat. えみぃ",
+    "album": "Radical Destruction",
+    "albumArtist": null
+  },
+  "spotify:track:7D60G6ci1YQndJDgT58t93": {
+    "artist": "ZYTOKINE, itori",
+    "track": "CRYMEARIVER feat. itori",
+    "album": "CRYMEARIVER",
+    "albumArtist": null
+  },
+  "spotify:track:4w0IqTe8hd6Gx2mlEubMXK": {
+    "artist": "Amateras Records, KUMI(ヲタみん)",
+    "track": "Luv For U feat. KUMI(ヲタみん)",
+    "album": "Radical Destruction",
+    "albumArtist": null
+  },
+  "spotify:track:1mw949tRP0OBbTbqyjSa0Y": {
+    "artist": "Amateras Records, めらみぽっぷ",
+    "track": "Fighter Girl feat. めらみぽっぷ",
+    "album": "Radical Destruction",
+    "albumArtist": null
+  },
+  "spotify:track:2unK8F5Eb5Hee4VRknYLUZ": {
+    "artist": "Amateras Records, miko",
+    "track": "Impact Factor feat. miko",
+    "album": "Radical Destruction",
+    "albumArtist": null
+  },
+  "spotify:track:5jClgx0563v1uNmrZ7Sm6z": {
+    "artist": "少女フラクタル, 天宮みや, 姫城碧海",
+    "track": "彷徨いの冥〜天〜 [with 天宮みや&姫城碧海]〈アニメMV使用曲〉",
+    "album": "彷徨いの冥〜天〜",
+    "albumArtist": null
+  },
+  "spotify:track:3EEATYpuqt5cexMysAT3bP": {
+    "artist": "Amateras Records, Kano",
+    "track": "空想少女 feat. 鹿乃 [Tracy Remix]",
+    "album": "Re/verse -Amateras Records Remixes Vol.6-",
+    "albumArtist": null
+  },
+  "bf1c75d425ecb5938b2a35cfeb88a169": {
+    "artist": "堀江由衣",
+    "track": "Heart Relation",
+    "album": null,
+    "albumArtist": null
+  },
+  "e071be58657401eab9d872f88bf5078e": {
+    "artist": "Tanaka Rie",
+    "track": "Epu Romanesque",
+    "album": null,
+    "albumArtist": null
+  },
+  "b6c79d06ffe7b924fc9062ee68d3ac5a": {
+    "artist": "ディーノ (CV: 前野智昭), 秋月紅葉 (CV: 鈴木達央)",
+    "track": "貴女にDolce",
+    "album": null,
+    "albumArtist": null
+  },
+  "b0a618e31b0b0acde7a1ed842da16f92": {
+    "artist": "ななひら, ARM (IOSYS)",
+    "track": "しましま☆パンク",
+    "album": null,
+    "albumArtist": null
+  },
+  "8ecf88ffdbbdbe9964f2a2172895f3fd": {
+    "artist": "ShibayanRecords, 3L",
+    "track": "アナタガモトメルモノ",
+    "album": null,
+    "albumArtist": null
+  },
+  "bce50017e849dc2664909522d86d15d3": {
+    "artist": "Amateras Records, moca",
+    "track": "Mental Disorder",
+    "album": null,
+    "albumArtist": null
+  },
+  "c20850a7d87a4a8814b8114a17939cf0": {
+    "artist": "ランコ, IOSYS, 96, ちよこ, めらみぽっぷ, ビートまりお, あまね, 556t, ARM, あいかぴん",
+    "track": "Scary Halloween Show",
+    "album": null,
+    "albumArtist": null
+  },
+  "3a899920cdc0e9c040a70270af757d7f": {
+    "artist": "Yunomi feat. nicamoq",
+    "track": "インドア系ならトラックメイカー",
+    "album": null,
+    "albumArtist": null
+  },
+  "82501f5be089ec1ba0f290c63645a32d": {
+    "artist": "Yunomi, aiobahn, feat. nicamoq",
+    "track": "銀河鉄道のペンギン",
+    "album": null,
+    "albumArtist": null
+  },
+  "40faaf7d9b29311f8e1fd79e76eac753": {
+    "artist": "765PRO ALLSTARS",
+    "track": "Ready!!",
+    "album": null,
+    "albumArtist": null
+  },
+  "c59747ad501c3ac9eb6ebe4ab9e7317a": {
+    "artist": "Kisaragi Chihaya (CV.今井 麻美 (Asami Imai))",
+    "track": "眠り姫 (Nemuri Hime)",
+    "album": null,
+    "albumArtist": null
+  },
+  "f4eb116812bca546609a668b8735e812": {
+    "artist": "島村卯月 (CV: 大橋彩香) ,",
+    "track": "Treasure☆ (M@STER VERSION) [アイドルマスターシンデレラガールズ]",
+    "album": null,
+    "albumArtist": null
+  },
+  "cce45f919f11d92e7a11958b14f6708d": {
+    "artist": "ASCA",
+    "track": "RESISTER [ソードアート・オンライン アリシゼーション]",
+    "album": null,
+    "albumArtist": null
+  },
+  "3cac25c401106f543711fe857588f886": {
+    "artist": "ラフィエル (CV: 花澤香菜), ガヴリール (CV: 富田美憂), ヴィーネ (CV: 大西沙織), サターニャ (CV: 大空直美)",
+    "track": "ハレルヤ☆エッサイム",
+    "album": null,
+    "albumArtist": null
+  },
+  "spotify:track:0IprHWBqxvCFKZy0dgmijP": {
+    "artist": "HoneyComeBear",
+    "track": "Achillea - アキレア",
+    "album": "Achillea - アキレア",
+    "albumArtist": null
+  },
+  "spotify:track:2WethMmZCuMQM5JYmpN07p": {
+    "artist": "Synthion",
+    "track": "Blossom",
+    "album": "Fairy Tale",
+    "albumArtist": null
+  },
+  "spotify:track:7Hu6DiYww3koCvoNqm9Qt3": {
+    "artist": "nanobii",
+    "track": "Chipland",
+    "album": "Chipland",
+    "albumArtist": null
+  },
+  "spotify:track:0hJS3EHWC4uL9sJ52ErpoN": {
+    "artist": "Rainbow Kitten Surprise",
+    "track": "Hide",
+    "album": "How to: Friend, Love, Freefall",
+    "albumArtist": null
+  },
+  "spotify:track:0scQIzgcOhnmfqfOTpRUFH": {
+    "artist": "Hippo Campus",
+    "track": "Suicide Saturday",
+    "album": "Bashful Creatures",
+    "albumArtist": null
+  },
+  "spotify:track:3DhqUDmmJcr0ERn3ncBtK5": {
+    "artist": "cute girls doing cute things",
+    "track": "Glamour",
+    "album": "Glamour",
+    "albumArtist": null
+  },
+  "spotify:track:0QZKaC3N3DRl0E5M497Nde": {
+    "artist": "Kaivaan, Hikaru Station",
+    "track": "Escape",
+    "album": "Escape",
+    "albumArtist": null
+  },
+  "spotify:track:0mA4P0jFK5aVd8sDBOzAkK": {
+    "artist": "sasakure.UK, DAZBEE",
+    "track": "mimizuqu",
+    "album": "mimizuqu",
+    "albumArtist": null
+  },
+  "spotify:track:1bkzq8d8LKpvCPzEemNjaD": {
+    "artist": "まめみ, DJ Command",
+    "track": "INFINITY SKY",
+    "album": "デジウィ LEGEND",
+    "albumArtist": null
+  },
+  "spotify:track:442Bofwaf4IWgJqbUZsgi4": {
+    "artist": "魂音泉, 雨天決行",
+    "track": "坂好きの神様 (feat. 雨天決行)",
+    "album": "Chill★Now",
+    "albumArtist": null
+  },
+  "spotify:track:4LOjSIMQGnUHL3idysdjfg": {
+    "artist": "魂音泉, 抹",
+    "track": "死なない (feat. 抹)",
+    "album": "ROOTS",
+    "albumArtist": null
+  },
+  "spotify:track:2ynvntvi8s207nucDqkfkd": {
+    "artist": "Amateras Records, Kanae Asaba, Nhato",
+    "track": "My Dearest (Nhato Remix) feat. Kanae Asaba, Nhato",
+    "album": "Amateras Records 10th Anniversary Best",
+    "albumArtist": null
+  },
+  "spotify:track:1Mu3DNK7MMp7FWf7OiOvUv": {
+    "artist": "OHEY, Wave Meow, Zeru",
+    "track": "With You",
+    "album": "With You",
+    "albumArtist": null
+  },
+  "spotify:track:5M4TEuDkgfSdl1Ro9gjF3I": {
+    "artist": "Stessie, Christian Hayward",
+    "track": "Street Kids",
+    "album": "Street Kids",
+    "albumArtist": null
+  },
+  "spotify:track:4f9dMbYvOJeD1n2RAJ5dAf": {
+    "artist": "CelDro & Wholm",
+    "track": "Essence",
+    "album": "Essence (with Wholm)",
+    "albumArtist": null
+  },
+  "spotify:track:6YAY9QlI4nvQD1POwvzFJu": {
+    "artist": "Linne, Starix",
+    "track": "Belong",
+    "album": "Belong",
+    "albumArtist": null
+  },
+  "https://open.spotify.com/track/6VK3z7bxfBgZ4OtaSo1Hbr": {
+    "artist": "We Are One, Linne, Axel Wernberg",
+    "track": "Sunset (feat. Axel Wernberg)",
+    "album": "Sunset (feat. Axel Wernberg)",
+    "albumArtist": null
+  },
+  "https://open.spotify.com/track/6X2dEEH4tcpbg4IT1Fy93N": {
+    "artist": "MindlessFate, Brakk",
+    "track": "One More Time",
+    "album": "Outertone 009 - Blast",
+    "albumArtist": null
+  },
+  "spotify:track:6n5GODBrpB0Oui8O7zmj3x": {
+    "artist": "Amateras Records, KUMI(ヲタみん)",
+    "track": "恋繋エピローグ feat. KUMI(ヲタみん) [Nhato Remix]",
+    "album": "Re/verse -Amateras Records Remixes Vol.6-",
+    "albumArtist": null
+  },
+  "spotify:track:55qv9Ml6GiIZBA9O3nuVx0": {
+    "artist": "GYARI(ココアシガレットP), なきゃむりゃ",
+    "track": "星海クリティカル - off vocal",
+    "album": "超銀河キズユカ歌合戦",
+    "albumArtist": null
+  },
+  "spotify:track:2aozlm4HfRx8yRYL7RCoAH": {
+    "artist": "Mili",
+    "track": "world.execute (me) ;",
+    "album": "Miracle Milk",
+    "albumArtist": null
+  },
+  "spotify:track:4FJQhrYrmnUnmbQyKlyHfq": {
+    "artist": "WRLD, Veronika Redd",
+    "track": "Little Too Close",
+    "album": "Chase It",
+    "albumArtist": null
+  },
+  "spotify:track:3D3anHnmK4yG2peuVkKzUA": {
+    "artist": "Kevin Penkin",
+    "track": "Prushka Sequence",
+    "album": "MADE IN ABYSS ORIGINAL SOUNDTRACK 2",
+    "albumArtist": null
+  },
+  "spotify:track:7zpLH4Q4uKBjLXRMwqev9F": {
+    "artist": "The Vaccines",
+    "track": "Disaster Girl",
+    "album": "Disaster Girl",
+    "albumArtist": null
+  },
+  "spotify:track:1poGez6IaTb1gtJxkXdlb8": {
+    "artist": "PSYQUI, Such",
+    "track": "ヒステリックナイトガール",
+    "album": "STYLEY!",
+    "albumArtist": null
+  },
+  "spotify:track:6nVIKrgE7lIlgLPbJ6l29f": {
+    "artist": "MYTH & ROID",
+    "track": "VORACITY",
+    "album": "MYTH & ROID ベストアルバム「MUSEUM-THE BEST OF MYTH & ROID-」",
+    "albumArtist": null
+  },
+  "spotify:track:1nKR5ODHItLAAGs6QEyRTW": {
+    "artist": "凋叶棕",
+    "track": "祭符「神遊びの唄」",
+    "album": "掲",
+    "albumArtist": null
+  },
+  "spotify:track:4xOXFzCihLsysHfxYEFtv5": {
+    "artist": "中島愛",
+    "track": "サタデー・ナイト・クエスチョン",
+    "album": "Curiosity",
+    "albumArtist": null
+  },
+  "spotify:track:5T7pJ22JTrStP2wxSfwn92": {
+    "artist": "USAO, Takenobu Mitsuyoshi",
+    "track": "IMPACT",
+    "album": "CHUNITHM NEW ORIGINAL SOUND TRACK",
+    "albumArtist": null
+  },
+  "spotify:track:62obsvPFNDhTW4pxyH9Lop": {
+    "artist": "Kobaryo, Srezcat",
+    "track": "Darkmoon Dissolve",
+    "album": "IRREGULAR NATION 8",
+    "albumArtist": null
+  },
+  "spotify:track:4BxhSU9JQJz9wEItQt6w50": {
+    "artist": "P*Light, mow*2",
+    "track": "BOOM! BOOM!! BOOM!!! - WACCA Ver.",
+    "album": "Fabuloustars",
+    "albumArtist": null
+  },
+  "spotify:track:5ZQ0ENje6gq3T1bQmznlut": {
+    "artist": "Pegboard Nerds, Sophon, Stonebank",
+    "track": "Higher (Stonebank Remix)",
+    "album": "Higher (Stonebank Remix)",
+    "albumArtist": null
+  },
+  "spotify:track:2yHdHOLycsVg3dEdhT12Py": {
+    "artist": "KLIO, DJ Satomi, Nightcore Nation",
+    "track": "The Spectre (Nightcore Dance Mix)",
+    "album": "The Spectre (Nightcore Dance Mix)",
+    "albumArtist": null
+  },
+  "spotify:track:1ehoC9cuZGPhzUu4yPb9ur": {
+    "artist": "Tokyo Machine, Weird Genius, Gammer, Lights",
+    "track": "Last Summer (Gammer Remix)",
+    "album": "Last Summer (The Remixes)",
+    "albumArtist": null
+  },
+  "spotify:track:1terNOsC67tl7YoaT7vDaB": {
+    "artist": "B3nte, Jungle Jonsson, Jessica Chertock",
+    "track": "Dance In Dollar Bills",
+    "album": "Dance In Dollar Bills",
+    "albumArtist": null
+  },
+  "spotify:track:2zIqToUNGVbnQVh5wsjqEi": {
+    "artist": "KLIO, DJ Satomi, Ukiko",
+    "track": "Fix Your Heart",
+    "album": "Fix Your Heart",
+    "albumArtist": null
+  },
+  "spotify:track:3r3kbdCcTcaZ5ukfP732XJ": {
+    "artist": "Mindpunk, Dropgun, Treetalk, R3D 8",
+    "track": "Take Me To Church",
+    "album": "Take Me To Church",
+    "albumArtist": null
+  },
+  "spotify:track:0y6APb6aBDn7jBpKgABnYq": {
+    "artist": "Dastic, Aeden, Stef Classens",
+    "track": "Way Back Home (Ryos Remix)",
+    "album": "Way Back Home (Ryos Remix)",
+    "albumArtist": null
+  },
+  "spotify:track:5pQShYiRs7XtYPDosbgugJ": {
+    "artist": "KLIO, DJ Satomi, Nightcore Nation",
+    "track": "Mad World (Nightcore Mix)",
+    "album": "Mad World (Nightcore Mix)",
+    "albumArtist": null
+  },
+  "spotify:track:4dicy3FyUyoLfO1KdRfG9R": {
+    "artist": "Flakkë, Sammy Boyle, JKLN",
+    "track": "Heartbeat",
+    "album": "Heartbeat",
+    "albumArtist": null
+  },
+  "spotify:track:5LyCed37s0iUBWDsOnhpgD": {
+    "artist": "Jaxx & Vega, VSNS",
+    "track": "Jaipur",
+    "album": "Jaipur",
+    "albumArtist": null
+  },
+  "spotify:track:5J20tBVq4NXSJeyB53e7RU": {
+    "artist": "HOURS, HVSH, Amondso, Koa",
+    "track": "La La La",
+    "album": "La La La",
+    "albumArtist": null
+  },
+  "spotify:track:5bPqRhk8gy5fSXGbEMo5ew": {
+    "artist": "Mark Mendy, Paradigm, LIZOT",
+    "track": "Weekend (Party, Sleep, Repeat) (LIZOT Remix)",
+    "album": "Weekend (Party, Sleep, Repeat) (LIZOT Remix)",
+    "albumArtist": null
+  },
+  "spotify:track:1XMftEFVoMKCJXqlYfy5t6": {
+    "artist": "Sonny Wern, Lyente",
+    "track": "Tough Love",
+    "album": "Tough Love",
+    "albumArtist": null
+  },
+  "spotify:track:3brSyDs7O8oeG3MjEsfVOf": {
+    "artist": "FYLOW, LNORA",
+    "track": "BABY GIRL",
+    "album": "BABY GIRL",
+    "albumArtist": null
+  },
+  "spotify:track:2aZYAGvCb8Z9JEJERqO7FW": {
+    "artist": "Jungle Jonsson, Jessica Chertock",
+    "track": "All the Small Things",
+    "album": "All the Small Things",
+    "albumArtist": null
+  },
+  "spotify:track:0LTlncvWpV4emObXXJiN7J": {
+    "artist": "WHOCARES, Daniel Best, Jaime Deraz",
+    "track": "Tom's Diner",
+    "album": "Tom's Diner",
     "albumArtist": null
   }
 }
