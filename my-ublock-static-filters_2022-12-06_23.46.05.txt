@@ -1,0 +1,39 @@
+www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+www.youtube.com##.annotation.annotation-type-custom.iv-promo.iv-promo-video
+
+! 3/12/2019 https://homeguides.sfgate.com
+homeguides.sfgate.com###IXrbNfo5-1
+
+! 12/1/2019 https://homeguides.sfgate.com
+homeguides.sfgate.com##.s2nFrameHost
+
+instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"])
+
+! 2020-12-05 https://www.reddit.com
+www.reddit.com##.email-collection-content
+www.reddit.com##.email-collection-banner
+
+! 2021-01-06 https://www.nytimes.com
+www.nytimes.com##.css-127jhi8 > div
+www.nytimes.com##.css-1n69xkm
+www.nytimes.com###gateway-content
+www.nytimes.com##.css-mcm29f
+
+twitter.com##[id^="layers"] > [class^="css-"]:has([dir^="auto"]):not(:has([aria-expanded])):has(a[href^="/"]):has-text(/Log in|Sign Up/)
+twitter.com##html[dir]:style(overflow: auto !important;)
+
+! 2022-01-29 https://twitter.com
+twitter.com##.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.r-11z020y.css-1dbjc4n
+twitter.com##.r-13qz1uu.r-1777fci.r-16y2uox.r-1awozwy.css-1dbjc4n
+twitter.com##.r-11nfnuw.r-16wqof.r-1dqxon3.r-16y2uox.r-kemksi.css-1dbjc4n
+twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx.r-18u37iz.r-1kihuf0.r-1awozwy.css-1dbjc4n
+
+! 2022-10-23 https://twitter.com
+||accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=T8ayorVH80jH1DpOdoh0iw&is_itp=true&channel_id=348408b2d707d1b4f762cc10d2c8936d645c28948c94fc542f7f6b31488a2f59&origin=https%3A%2F%2Ftwitter.com$subdocument
+
+! 2022-10-23 https://mobile.twitter.com
+||accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=QM5zeWqTEoaVjl7FDxixgQ&channel_id=2714949851fbfdbc87507411ac8997f13da516420d91b42ac639e09de30db91a&origin=https%3A%2F%2Fmobile.twitter.com&is_itp=true$subdocument
+
+! 2022-11-15 Google's Use Google Account to Sign in popup
+||accounts.google.com/gsi/*$xhr,script,3p
+
