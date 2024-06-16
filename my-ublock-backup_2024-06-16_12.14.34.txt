@@ -1,0 +1,44 @@
+{
+  "timeStamp": 1718554474607,
+  "version": "1.58.0",
+  "userSettings": {
+    "alwaysDetachLogger": false,
+    "importedLists": [],
+    "popupPanelSections": 31
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "plowe-0",
+    "fanboy-cookiemonster",
+    "ublock-cookies-easylist",
+    "adguard-cookies",
+    "ublock-cookies-adguard",
+    "fanboy-thirdparty_social"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "# edge-scheme",
+    "# wyciwyg-scheme",
+    "about-scheme",
+    "anilist.co",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "hanime.tv",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "qr.streamelements.com",
+    "vivaldi-scheme",
+    "www.crunchyroll.com"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true\nno-strict-blocking: ads.trafficjunky.net true",
+  "userFilters": "www.youtube.com##.ytp-scroll-min.ytp-pause-overlay\nwww.youtube.com##.annotation.annotation-type-custom.iv-promo.iv-promo-video\n\n! 3/12/2019 https://homeguides.sfgate.com\nhomeguides.sfgate.com###IXrbNfo5-1\n\n! 12/1/2019 https://homeguides.sfgate.com\nhomeguides.sfgate.com##.s2nFrameHost\n\ninstagram.com###react-root ~ div[class*=\" \"][class$=\" \"][role=\"presentation\"]:has(a[href^=\"/accounts/\"][href*=\"signup/\"])\n\n! 2020-12-05 https://www.reddit.com\nwww.reddit.com##.email-collection-content\nwww.reddit.com##.email-collection-banner\n\n! 2021-01-06 https://www.nytimes.com\nwww.nytimes.com##.css-127jhi8 > div\nwww.nytimes.com##.css-1n69xkm\nwww.nytimes.com###gateway-content\nwww.nytimes.com##.css-mcm29f\n\ntwitter.com##[id^=\"layers\"] > [class^=\"css-\"]:has([dir^=\"auto\"]):not(:has([aria-expanded])):has(a[href^=\"/\"]):has-text(/Log in|Sign Up/)\ntwitter.com##html[dir]:style(overflow: auto !important;)\n\n! 2022-01-29 https://twitter.com\ntwitter.com##.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.r-11z020y.css-1dbjc4n\ntwitter.com##.r-13qz1uu.r-1777fci.r-16y2uox.r-1awozwy.css-1dbjc4n\ntwitter.com##.r-11nfnuw.r-16wqof.r-1dqxon3.r-16y2uox.r-kemksi.css-1dbjc4n\ntwitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx.r-18u37iz.r-1kihuf0.r-1awozwy.css-1dbjc4n\n\n! 2022-10-23 https://twitter.com\n||accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=T8ayorVH80jH1DpOdoh0iw&is_itp=true&channel_id=348408b2d707d1b4f762cc10d2c8936d645c28948c94fc542f7f6b31488a2f59&origin=https%3A%2F%2Ftwitter.com$subdocument\n\n! 2022-10-23 https://mobile.twitter.com\n||accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=QM5zeWqTEoaVjl7FDxixgQ&channel_id=2714949851fbfdbc87507411ac8997f13da516420d91b42ac639e09de30db91a&origin=https%3A%2F%2Fmobile.twitter.com&is_itp=true$subdocument\n\n! 2022-11-15 Google's Use Google Account to Sign in popup\n||accounts.google.com/gsi/*$xhr,script,3p\n\nyoutube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to your search/i))\nyoutube.com##ytd-shelf-renderer:has-text(/People also watched/)\nyoutube.com###contents > ytd-shelf-renderer:has-text(/For you/)\nyoutube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Watch again/i))\nyoutube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Searches related to/i))\nyoutube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Learn while you\\'re at home/i))\nyoutube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope\nyoutube.com###secondary > .ytd-two-column-search-results-renderer\nyoutube.com###contents > .ytd-secondary-search-container-renderer.style-scope\nyoutube.com##ytd-shelf-renderer:has-text(/Channels new to you/)\nyoutube.com##ytd-shelf-renderer:has-text(/Previously watched/)\n"
+}
