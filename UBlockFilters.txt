@@ -37,3 +37,15 @@ twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx
 ! 2022-11-15 Google's Use Google Account to Sign in popup
 ||accounts.google.com/gsi/*$xhr,script,3p
 
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to your search/i))
+youtube.com##ytd-shelf-renderer:has-text(/People also watched/)
+youtube.com###contents > ytd-shelf-renderer:has-text(/For you/)
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Watch again/i))
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Searches related to/i))
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Learn while you\'re at home/i))
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+youtube.com###secondary > .ytd-two-column-search-results-renderer
+youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
+youtube.com##ytd-shelf-renderer:has-text(/Channels new to you/)
+youtube.com##ytd-shelf-renderer:has-text(/Previously watched/)
+
